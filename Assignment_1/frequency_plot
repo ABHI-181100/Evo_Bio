@@ -53,3 +53,7 @@ for (genotype in c("AA", "BB", "CC", "AB", "AC", "BC")) {
   legend("topright", legend = labels, col = colors, lwd = 2, cex = 0.8)
   dev.off()
 }
+
+
+# NOTE ::: i did this by taking p allele on x-axis and rest allele constrained by parameterization.
+# we can similarily take refrence as q or r and parameterize others to have overall plots. 
